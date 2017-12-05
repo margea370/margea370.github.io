@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <div class="sidenav"><a href="contact.html">Contact</a></div>
+    </div>
+
+    <div class="container">
+        <div class="copy">
+            <h1>Margarita Genyte</h1>
+
+            <!--            <div class="textandpicture">-->
+            <p class="bio">
+                I am a futuristic designer and architect who recently graduated from the University of East London. I was introduced to the wonders of architecture in my childhood through the stories of my grandfather who was an Architect and Engineer. Travelling and living in different countries in Europe has continued to fuel my passion for architecture. The global diversity of structures, modernist experimentation and technological innovation in recent builds has reinforced my desire to be a part of this field. Six years of studies have provided me with the tools to create and visualise my ideas and now I am eager to be a part of the architecture industry; a team which makes this world a better place to live in.
+            </p>
+        </div>
+        <div class="photo">
+            <img src="https://i.imgsafe.org/33/336778e6f7.jpeg" />
+        </div>
+    </div>
+
+    <div class="footer">Copyright © All rights reserved.
+    </div>
+
+</body>
+
+<style>
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+}
+
+pre {
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.container {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    padding: 7%;
+    text-align: center;
+}
+
+.copy {
+    display: inline-block;
+    flex: 1;
+    text-align: left;
+}
+
+.bio {
+    max-width: 470px;
+}
+
+.photo {
+    display: inline-block;
+    flex: 1;
+}
+
+
+/* Add a black background color to the top navigation //////////////////////////////////////////////// */
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.sidenav {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.sidenav a {
+    float: right;
+
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: black;
+    font-size: 1.2em;
+}
+
+.sidenav a:hover {
+    color: black;
+    font-size: 1.2em;
+}
+
+/* Add a color to the active/current link */
+
+topnav a.active {
+    background-color: #4CAF50;
+    color: black;
+    font-size: 1.2em;
+}
+
+sidenav a.active {
+    background-color: #4CAF50;
+    color: black;
+    font-size: 1.2em;
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+body {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: sans-serif;
+    font-size: 80%;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+img {
+    width: 65%;
+    margin: 0 20%;
+    vertical-align: middle;
+    transition: all 2s, transform .5s, box-shadow .5s;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        max-width: 960px;
+    }
+    .copy {
+        max-width: calc(100%/2);
+        padding-left: 7%;
+    }
+    .photo {
+        max-width: calc(100%/2)
+    }
+
+}
+
+
+</style>
+
+</html>
